@@ -1,0 +1,220 @@
+/* Desktop  */
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+header {
+    justify-content: center;
+    background-color: black;
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    z-index: 2;
+    padding-top: 10px;
+    max-width: 100%;
+    width: 100%;
+    height: 10vh;
+}
+span a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color:yellow ;
+}
+main{
+    background-color: rgb(255, 196, 1);
+    padding-top: 50px;
+    width: 100%;
+    max-width: 100%;
+    border: solid 2px black;
+    border-radius: 6px;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color: yellow;
+}
+.receitas{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+    margin: 30px;
+}
+.bolo, .hotdog, .camarao{
+    background-color: black;
+    flex: 1;
+    flex-flow: row wrap;
+    padding-top: 5px;
+    font-size: 20px;
+    margin: 15px;
+    border: solid 2px black;
+    border-radius: 6px;
+}
+footer{
+    background-color: rgb(255, 196, 1);
+    position: relative;
+    padding-top: 10px;
+    margin-top: 6px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+}
+
+/* IPAD */
+@media(max-width: 768px){
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    header {
+        justify-content: center;
+        background-color: black;
+        position: fixed;
+        font-size: 20px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 6px;
+        z-index: 2;
+        padding-top: 10px;
+        max-width: 100%;
+        width: 100%;
+        height: 6vh;
+    }
+    span a{
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color:yellow ;
+    }
+    main{
+        background-color: rgb(255, 196, 1);
+        padding-top: 50px;
+        width: 100%;
+        max-width: 100%;
+        border: solid 2px black;
+        border-radius: 6px;
+        text-align: center;
+    }
+    main a{
+        text-decoration: none;
+        color: yellow;
+    }
+    .receitas{
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 20px;
+        margin: 30px;
+    }
+    .bolo, .hotdog, .camarao{
+        background-color: black;
+        flex: 1;
+        flex-flow: row wrap;
+        padding-top: 5px;
+        font-size: 20px;
+        margin: 30px;
+        border: solid 2px black;
+        border-radius: 6px;
+    }
+    footer{
+        background-color: rgb(255, 196, 1);
+        position: relative;
+        padding-top: 10px;
+        margin-top: 0px;
+        border: 2px solid black;
+        border-radius: 8px;
+        text-align: center;
+        width: 100%;
+        height: 6vh;
+    }
+
+
+}
+
+/* Moto G4 */
+@media(max-width: 360px){
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Segoe UI', roboto;
+        color: black;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    header {
+        background-color: black;
+        position: fixed;
+        font-size: 16px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 6px;
+        z-index: 2;
+        padding-top: 5px;
+        max-width: 100%;
+        width: 100%;
+        height: 8vh;
+    }
+    span a{
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color:yellow ;
+    }
+    main{
+        background-color: rgb(255, 196, 1);
+        font-size: 14px;
+        padding-top: 50px;
+        width: 100%;
+        max-width: 100%;
+        border: solid 2px black;
+        border-radius: 6px;
+        text-align: center;
+    }
+    main a{
+        text-decoration: none;
+        color: yellow;
+    }
+    .receitas{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 20px;
+     }
+    .bolo, .hotdog, .camarao{
+        flex: 1;
+        padding-top: 5px;
+        font-size: 20px;
+        border: solid 2px black;
+        border-radius: 6px;
+    }
+    footer{
+        background-color: rgb(255, 196, 1);
+        position: relative;
+        padding-top: 5px;
+        border: 2px solid black;
+        border-radius: 8px;
+        text-align: center;
+        width: 100%;
+        height: 10vh;
+    } 
+}
+/* Projeto PI
+https://wagnersistemalima-achadinho-petz.netlify.app/#catalog
+https://wagnersistemalimasds2.netlify.app/orders */
